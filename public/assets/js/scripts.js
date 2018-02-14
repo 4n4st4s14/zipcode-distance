@@ -12,4 +12,6 @@ $(document).ready(function(){
         }
         const result = reader.readAsBinaryString(file);
     });
+
+
 });
