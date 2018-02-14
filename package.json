@@ -19,6 +19,7 @@
   "homepage": "https://github.com/4n4st4s14/zipcode-distance#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "fast-csv": "^2.4.1"
   }
 }
