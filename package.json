@@ -21,7 +21,10 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "fast-csv": "^2.4.1",
-    "is-extended": "0.0.10"
+    "is-extended": "0.0.10",
+    "object-extended": "0.0.7",
+    "string-extended": "0.0.8",
+    "zipcodes": "^6.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.14.12"
