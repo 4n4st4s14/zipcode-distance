@@ -9,6 +9,10 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static('./public'));
 
+app.post('/getDist', (req, res)=>{
+    const {csvString} = req.body;
+});
+
 app.listen(PORT, ()=>{
     console.log('Listening on port: ' + PORT);
 });
