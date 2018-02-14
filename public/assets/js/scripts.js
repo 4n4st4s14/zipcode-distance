@@ -7,7 +7,22 @@ $(document).ready(function(){
             $.post('/getDist', {
                 csvString: csvString
             }).done((data)=>{
-                console.log(data);
+                //console.log(data);
+
+                data.forEach(function(data) {
+                    console.log(data);
+
+                    let newDiv = $(`<tr>
+                          <td>${data.name}</td>
+                          <td>${data.zipcode}</td>
+                                  </tr>`);
+
+                    $('#data').append(newDiv);
+
+                    });
+
+
+
             })
         }
         const result = reader.readAsBinaryString(file);

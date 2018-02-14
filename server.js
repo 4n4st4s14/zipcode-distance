@@ -20,7 +20,8 @@ app.post('/getDist', (req, res)=>{
     let complete = [];
     csv.fromString(csvString, {headers: true})
     .on('data', (data)=>{
-        complete.push(data);    
+        complete.push(data)
+        //console.log(complete);
     })
     .on('end', ()=>{
         res.send(complete);
