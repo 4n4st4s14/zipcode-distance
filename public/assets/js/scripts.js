@@ -4,8 +4,10 @@ $(document).ready(function(){
         var reader = new FileReader();
         reader.onload = function(){
             const csvString = reader.result;
-            console.log(csvString);	
+            console.log(csvString);
         }
         const result = reader.readAsBinaryString(file);
     });
+
+
 });
