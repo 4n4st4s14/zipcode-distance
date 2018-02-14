@@ -15,6 +15,7 @@ $(document).ready(function(){
                     let newDiv = $(`<tr>
                           <td>${data.name}</td>
                           <td>${data.zipcode}</td>
+                          <td>${data.distance}</td>
                                   </tr>`);
 
                     $('#data').append(newDiv);
