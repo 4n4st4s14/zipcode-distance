@@ -15,6 +15,13 @@ app.use(express.static('./public'));
 
 app.post('/getDist', (req, res)=>{
     const {csvString} = req.body;
+    console.log('=============');
+    console.log();
+    let dataArr = csvString.split('\r\n');
+    let lastIndex = dataArr.length - 1;
+    dataArr.splice(lastIndex, 1);
+    dataArr.splice(0, 1);
+    let curIndex = 0;
     let complete = [];
     csv.fromString(csvString, {headers: true})
     .on('data', (data)=>{
@@ -33,11 +40,21 @@ app.post('/getDist', (req, res)=>{
             else{
                 data.distance = distData.distance;
                 complete.push(data);
+                if(curIndex == dataArr.length - 1){
+                    console.log('done');
+                    res.send(complete);
+                }
+                else{
+                    console.log('increment');
+                    console.log(curIndex);
+                    console.log(dataArr.length);
+                    curIndex++;
+                }
             }
         });
     })
     .on('end', ()=>{
-        res.send(complete);
+        
     });
 });
 
