@@ -4,4 +4,13 @@
 
 nav{
   height: 10vh;
+  background-color: #2F4550;
+}
+
+#file-field{
+  background-color: #B8DBD9;
+}
+
+.file-btn{
+  background-color: #586F7C;
 }

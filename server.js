@@ -3,6 +3,10 @@ const bodyParser = require('body-parser');
 const csv = require('fast-csv');
 const app = express();
 
+const zipcodes = require('zipcodes');
+var dist = zipcodes.distance(62959, 90210); 
+// dist = 1662
+
 app.use(bodyParser.json({}));
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.text());
