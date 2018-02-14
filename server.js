@@ -18,6 +18,7 @@ app.post('/getDist', (req, res)=>{
     let complete = [];
     csv.fromString(csvString, {headers: true})
     .on('data', (data)=>{
+        
         let location = zipcode.lookup(`${data.zipcode}`);
         distance.get({
             origin: location.join(' '),
