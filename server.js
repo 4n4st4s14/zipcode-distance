@@ -17,9 +17,13 @@ app.use(express.static('./public'));
 
 app.post('/getDist', (req, res)=>{
     const {csvString} = req.body;
+    let complete = [];
     csv.fromString(csvString, {headers: true})
     .on('data', (data)=>{
-        res.send({parsed: data});
+        complete.push(data);    
+    })
+    .on('end', ()=>{
+        res.send(complete);
     });
 });
 
