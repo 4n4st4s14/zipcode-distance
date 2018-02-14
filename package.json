@@ -20,6 +20,10 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+<<<<<<< HEAD
     "zipcodes": "^6.0.0"
+=======
+    "fast-csv": "^2.4.1"
+>>>>>>> 27448055373f9df354599a0aa1b89ed5baedc613
   }
 }
