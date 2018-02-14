@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const csv = require('fast-csv');
 const app = express();
 
 const zipcodes = require('zipcodes');
@@ -16,6 +17,10 @@ app.use(express.static('./public'));
 
 app.post('/getDist', (req, res)=>{
     const {csvString} = req.body;
+    csv.fromString(csvString, {headers: true})
+    .on('data', (data)=>{
+        res.send({parsed: data});
+    });
 });
 
 app.listen(PORT, ()=>{

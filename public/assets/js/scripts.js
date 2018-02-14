@@ -4,7 +4,11 @@ $(document).ready(function(){
         var reader = new FileReader();
         reader.onload = function(){
             const csvString = reader.result;
-            console.log(csvString);
+            $.post('/getDist', {
+                csvString: csvString
+            }).done((data)=>{
+                console.log(data);
+            })
         }
         const result = reader.readAsBinaryString(file);
     });
