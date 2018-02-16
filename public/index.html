@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -10,64 +11,74 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-<!-- Compiled and minified JavaScript -->
-
+  <!-- Compiled and minified JavaScript -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
 <body>
   <nav>
-  <div class="nav-wrapper">
-    <a href="#" class="brand-logo">Logo</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="sass.html">idt we need this really</a></li>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a href="sass.html">idt we need this really</a>
+        </li>
 
-    </ul>
-  </div>
-</nav>
-
-<div class="container">
-        <!-- Page Content goes here -->
-    <div class="row">
-    <div class="col l12 form">
-
-      <form action="#" id="file-field">
-        <div class="file-field input-field">
-          <div class="btn file-btn">
-            <span>choose file</span>
-            <input id="file-input" type="file">
-          </div>
-          <div class="file-path-wrapper">
-            <input class="file-path validate" type="text">
-          </div>
-        </div>
-      </form>
-
+      </ul>
     </div>
-</div>
- <div class="row table">
+  </nav>
 
-    <table>
-      <thead>
-        <tr>
+  <div class="container">
+    <!-- Page Content goes here -->
+    <div class="row">
+      <div class="col l12 form">
+
+        <form action="#" id="file-field">
+          <div class="file-field input-field">
+            <div class="btn file-btn">
+              <span>choose file</span>
+              <input id="file-input" type="file">
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path validate" type="text">
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+    <div class="row">
+      <button disabled id='download' class="btn waves-effect waves-light">Download CSV
+        <i class="material-icons right">file_download</i>
+      </button>
+    </div>
+
+    <div class="row table">
+
+      <table>
+        <thead>
+          <tr>
             <th>Name</th>
             <th>Zipcode</th>
             <th>Distance</th>
 
-        </tr>
-      </thead>
+          </tr>
+        </thead>
 
-      <tbody id="data">
+        <tbody id="data">
 
-      </tbody>
-    </table>
+        </tbody>
+      </table>
 
- </div>
+    </div>
 
-</div>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="http://danml.com/js/download.js"></script>
   <script src="./assets/js/scripts.js"></script>
 </body>
+
 </html>

@@ -7,8 +7,13 @@ $(document).ready(function(){
             $.post('/getDist', {
                 csvString: csvString
             }).done((data)=>{
-                //console.log(data);
-
+                if(data){
+                    $('#download').attr('disabled', false);                                    
+                }
+                console.log(data);
+                $(document).on('click', '#download', function(){
+                    download(data, 'data.csv');
+                });
                 data.forEach(function(data) {
                     console.log(data);
 
