@@ -1,54 +1,448 @@
 Class: Class Name,Class Type,Address,Location,Student Primary Address,ZIPCODE,Student Status,Enroll Date,State,Distance from Address in Column b,"Distance from 45085 University Dr, Ashburn, VA 20147"
-GWAR20180213DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"10878 Hunter Gate Way<br>Reston, 2094<br>",20194,Enrolled,1/10/2018,VA,21.8 mi,11.8 mi
-GWAR20170725DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"25110 Monteith Ter<br>Chantilly, VA 20152<br>USA",20152,Active Non-Participatory,6/27/2017,VA,21.9 mi,12.4 mi
-GWAR20180213DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1 Riverview CT<br>Laurel, 20707<br>",20707,Enrolled,1/21/2018,MD,26.5 mi,45.0 mi
-GWAR20180212DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1026 NORTH MONROE STREET<br>ARLINGTON, VA 22201<br>USA",22201,Enrolled,11/28/2017,VA,1 ft,37.7 mi
-GWAR20170725DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1040 N Quincy Street<br>Arlington, VA 22201<br>USA",22201,Active,6/12/2017,VA,1 ft,37.7 mi
-GW20170501FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"42758 Shaler st<br>Chantilly, VA 20152<br>USA",20152,Graduated,4/14/2017,VA,21.9 mi,12.4 mi
-GW20170131FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1605 7th st nw #8<br>Washington, dc 20001<br>United States",20001,Graduated,12/23/2016,DC,4.4 mi,31.9 mi
-GWARL20171016FSF-FT,Coding Full Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1100 6th ST SW<br>Washington, DC 20024<br>USA",20024,Graduated,8/30/2017,DC,4.4 mi,31.9 mi
-GW20170502FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1432 A St NE<br>Washington, DC 20002<br>United States",20002,Dropped,2/3/2017,DC,4.4 mi,31.9 mi
-GW20170501FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1001 Murphy Drive<br>Great Falls, VA 22066<br>Unites States of America",22066,Graduated,4/11/2017,VA,18.2 mi,13.2 mi
-GW20170130FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"57 Maplewood Avenue<br>Honeoye Falls, NY 14472<br>United States",14472,Graduated,12/8/2016,NY,354 mi,337 mi
-GW20170501FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1111 Orren St NE<br>Washington, District of Columbia 20002<br>United States",20002,Graduated,4/22/2017,DC,4.4 mi,31.9 mi
-GWAR20180212DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"251 1/2 10th St. NE<br>Washington, District of Columbia 20002<br>USA",20002,Enrolled,10/20/2017,DC,4.4 mi,31.9 mi
-GWARL20171016FSF-FT,Coding Full Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"2090 Hunters Crest Way<br>Vienna, VA 22181<br>US",22181,Dropped,8/1/2017,VA,14.4 mi,26.7 mi
-GW20170130FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1080 N. Manchester St<br>Arlington, VA 22205-1644<br>United States",22205,Graduated,1/13/2017,VA,1 ft,37.7 mi
-GWAR20170717FSF-FT,Coding Full Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"219 Rhode Island Ave NE<br>Washington, District of Columbia 20002<br>United States",20002,Graduated,7/7/2017,DC,4.4 mi,31.9 mi
-GWAR20180213DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1825 7th st NW<br>Washington, 20001<br>",20001,Enrolled,12/4/2017,DC,4.4 mi,31.9 mi
-GWAR20170801FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1207 7th St. NW<br>Washington, District of Columbia 20001<br>United States",20001,Graduated,7/5/2017,DC,4.4 mi,31.9 mi
-GWAR20180212DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1520 Independence Ave SE<br>Washington, District of Columbia 20003<br>USA",20003,Enrolled,10/23/2017,DC,4.4 mi,31.9 mi
-GWARL20171016FSF-FT,Coding Full Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"609 Harvard St NW<br>Washington, District of Columbia 20001<br>USA",20001,Graduated,9/23/2017,DC,4.4 mi,31.9 mi
-GWAR20180213DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"2411 First St NW<br>Washington, 20001<br>",20001,Enrolled,1/18/2018,DC,4.4 mi,31.9 mi
-GW20170131FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1317 Constitution Ave NE<br>Washington, DC 20002<br>United States",20002,Dropped,11/28/2016,DC,4.4 mi,31.9 mi
-GWAR20170731FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1815 H Street NE<br>Washington, DC 20002<br>United States",20002,Graduated,7/17/2017,DC,4.4 mi,31.9 mi
-GWAR20180212DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"907 T Street<br>Washington, 20001<br>United States",20001,Enrolled,1/24/2018,DC,4.4 mi,31.9 mi
-GW20170130FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1325 15th St. NW APT 113<br>Washington, DC 20005<br>United States",20005,Complete - Non-Graduate,12/9/2016,DC,4.4 mi,31.9 mi
-GW20170501FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1223 I St. SE<br>Washington, DC 20003<br>United States",20003,Graduated,4/4/2017,DC,4.4 mi,31.9 mi
-GW20170131FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1862 CENTRAL PLACE NE<br>WASHINGTON, DC 20002<br>United States",20002,Graduated,11/23/2016,DC,4.4 mi,31.9 mi
-GWAR20170717FSF-FT,Coding Full Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"714 10th Street NE<br>Washington, District of Columbia 20002<br>United States",20002,Graduated,5/12/2017,DC,4.4 mi,31.9 mi
-GWAR20170801FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"5137 Nebraska Ave NW<br>Washington, DC - District of Columbia 20008<br>USA",20008,Withdrawal-with-refund,5/11/2017,DC,4.4 mi,31.9 mi
-GWAR20180213DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"417 Randolph St NW<br>Washington, 20011<br>United States",20011,Enrolled,11/29/2017,DC,4.4 mi,31.9 mi
-GW20170502FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1715 15th Street NW<br>Washington, DC 20009<br>United States",20009,Graduated,,DC,4.4 mi,31.9 mi
-GWAR20180212DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"806 D Street SE<br>Washington, DC 20003<br>United States",20003,Enrolled,9/18/2017,DC,4.4 mi,31.9 mi
-GWARL20171016FSF-FT,Coding Full Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"43 missouri Ave. NW<br>Washington, DC 20011<br>United states",20011,Graduated,8/4/2017,DC,4.4 mi,31.9 mi
-GWAR20180212DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"400 8th Street NW #1304<br>Washington, 20004<br>",20004,Enrolled,1/29/2018,DC,4.4 mi,31.9 mi
-GWAR20180213DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1301 20th St NW<br>Washington, 20036<br>",20036,Enrolled,12/26/2017,DC,4.4 mi,31.9 mi
-GW20170502FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"6645 Georgia Ave NW, Unit 111<br>Chevy Chase, Washington, DC 20012<br>United States",20012,Graduated,2/6/2017,DC,4.4 mi,31.9 mi
-GWAR20171016DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"340 Taylor Street NE<br>Washington, District of Columbia 20017<br>USA",20017,Active,9/13/2017,DC,4.4 mi,31.9 mi
-GW20170502FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1226 Farragut Pl NE<br>Washington DC, DC 20017<br>united states",20017,Graduated,4/27/2017,DC,4.4 mi,31.9 mi
-GW20170130FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"2141 I Street, NW<br>Washington, DC 20037<br>United States",20037,Graduated,12/20/2016,DC,4.4 mi,31.9 mi
-GWAR20170801FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"5506-C SouthHall Dr. SW<br>Washington, DC 20032<br>United States",20032,Withdrawal-no-refund,5/31/2017,DC,4.4 mi,31.9 mi
-GW20170131FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1408 A St SE Apt 202<br>Washington, DC 20003<br>United States",20003,Graduated,11/10/2016,DC,4.4 mi,31.9 mi
-GWAR20171016DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"3816 Davis Pl NW<br>Washington, DC 20007<br>United States",20007,Active,8/8/2017,DC,4.4 mi,31.9 mi
-GW20170501FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"3564 14th Street NW<br>Washington, DC 20010<br>United States",20010,Withdrawal-no-refund,4/27/2017,DC,4.4 mi,31.9 mi
-GWARL20171016FSF-FT,Coding Full Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"2480 16th Street NW<br>Washington, DC 20009<br>United States",20009,Graduated,8/9/2017,DC,4.4 mi,31.9 mi
-GW20170502FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"408 SHEPHERD ST NW<br>WASHINGTON, DC 20011<br>United States",20011,Graduated,2/17/2017,DC,4.4 mi,31.9 mi
-GWAR20170725DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"3460 14th st nw<br>washington, DC 20010<br>United States",20010,Active,5/28/2017,DC,4.4 mi,31.9 mi
-GWAR20180213DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"3401 Idaho Ave NW<br>Washington, 20016<br>",20016,Enrolled,1/8/2018,DC,4.4 mi,31.9 mi
-GWAR20180212DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"4903 4TH ST NW<br>WASHINGTON, DC 20011<br>United States",20011,Dropped,10/9/2017,DC,4.4 mi,31.9 mi
-GW20170130FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1603 Crittenden St NW<br>Washington, DC 20011<br>United States",20011,Withdrawal-with-refund,1/7/2017,DC,4.4 mi,31.9 mi
-GWAR20170731FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1711 Massachusetts Ave NW<br>District of Columbia, DC 20036<br>United States",20036,Withdrawal-no-refund,7/14/2017,DC,4.4 mi,31.9 mi
-GWAR20170725DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"1099 22nd Street NW<br>Washington, DC 20037<br>United States",20037,Dropped,6/27/2017,DC,4.4 mi,31.9 mi
-GW20170130FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"2450 Virginia Ave Nw<br>Washington, DC 20037<br>United States",20037,Dropped,12/6/2016,DC,4.4 mi,31.9 mi
-GW20170502FSF,Coding Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"2221 I ST NW<br>Washington, DC 20037<br>United States",20037,Graduated,3/17/2017,DC,4.4 mi,31.9 mi
+GWAR20180213DATA,Data Part Time,"950 N Glebe Rd. Arlington, VA 22203",Arlington,"10878 Hunter Gate Way<br>Reston, 2094<br>",22556,Enrolled,1/10/2018,location not found,46.0 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,API Limit Reached,API Limit Reached
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi
+,,,,,,,,location not found,49.1 mi,51.7 mi

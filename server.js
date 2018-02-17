@@ -6,7 +6,7 @@ const zipcode = require('zipcode');
 const app = express();
 const fs = require('fs');
 
-distance.key('AIzaSyBDpaZ__ByRlEfjiyudsa4HTn6NIBKMheY');
+distance.key('AIzaSyB3bGu7BUFEwrFl_7Xu4YiADyeMnrvrxiw');
 distance.units('imperial');
 distance.avoid('tolls');
 distance.mode('driving');
@@ -39,7 +39,7 @@ app.post('/getDist', (req, res)=>{
         console.log(data.Location);
         let classLocation = data.Location === 'Arlington' ? 'Arlington, VA' : 'Washington DC';
         let origin = !studentLocation ? 'location not found' : studentLocation.join(' ');
-        let origins = [origin];
+        let origins = [`${data.ZIPCODE}`];
         let destinations = [classLocation, 'Ashburn, VA'];
         distance.matrix(origins, destinations, (err, distData)=>{
             if(err){
@@ -49,12 +49,13 @@ app.post('/getDist', (req, res)=>{
             }
             else{
                 console.log('DIST DATA', curIndex);
-                
-                console.log(distData.destination_addresses[1]);                  
-                console.log(distData.rows[0].elements[1]);
+                console.log(distData);                
+                console.log('data: ', data);
+                // console.log(distData.destination_addresses[1]);                  
+                // console.log(distData.rows[0].elements[1]);
                 !studentLocation ? data.State = 'location not found' : data.State = studentLocation[1];
-                data['Distance from Address in Column b'] = distData.rows[0].elements[0].distance.text;
-                data['Distance from 45085 University Dr, Ashburn, VA 20147'] = distData.rows[0].elements[1].distance.text;    
+                data['Distance from Address in Column b'] = distData.status !== 'OK' ? distData.error_message : distData.rows[0].elements[0].distance.text;
+                data['Distance from 45085 University Dr, Ashburn, VA 20147'] = distData.status !== 'OK' ? distData.error_message : distData.rows[0].elements[1].distance.text;    
                 csvStream.write(data);
                 complete.push(data);
                 if(curIndex == dataArr.length -1){
