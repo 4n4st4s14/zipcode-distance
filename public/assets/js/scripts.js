@@ -18,10 +18,9 @@ $(document).ready(function(){
             $.post('/getDist', {
                 csvString: csvString
             }).done((data)=>{
-                if(data){
-                    $('#download').attr('disabled', false);    
-                    $('#spinner').html('');                                
-                }
+                
+                $('#download').attr('disabled', false);    
+                $('#spinner').html('');                                
                 console.log(data);
                 $(document).on('click', '#download', function(){
                     download(data, 'data.csv');

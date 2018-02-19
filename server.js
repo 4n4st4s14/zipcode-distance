@@ -6,7 +6,7 @@ const zipcode = require('zipcode');
 const app = express();
 const fs = require('fs');
 
-distance.key('AIzaSyB3bGu7BUFEwrFl_7Xu4YiADyeMnrvrxiw');
+distance.key('AIzaSyAP_SwCt8FpuCJxpiiQ_90N0yP3U2v5LWw');
 distance.units('imperial');
 distance.avoid('tolls');
 distance.mode('driving');
@@ -54,85 +54,126 @@ app.post('/getDist', (req, res)=>{
             for(let x = 0; x < apiRuns; x++){
                 let begin = x === 0 ? x : x * 10;
                 let end = (x + 1) * 10;
-                let curOrigins = origins.slice(begin, end);
+                let curOrigins = [];
+                curOrigins = origins.slice(begin, end);
+                console.log(curOrigins);
+                setTimeout(()=>{
+                    distance.matrix(curOrigins, destinations, (err, distances)=>{
+                        if(err){
+                            // console.log('ERROR');
+                            // console.log(err);
+                            res.status(400).end(err);
+                        }
+                        else{
+                            // console.log('DIST DATA', curIndex);
+                            // console.log(distances);                
+                            // console.log('data: ', data);
+                            if (distances.status == 'OK') {
+                                //Every origin
+                                for (let i=0; i < curOrigins.length; i++) {
+                            
+                                    // Every Destination for that origin
+                                    for (let j = 0; j < destinations.length; j++) {
         
-                distance.matrix(curOrigins, destinations, (err, distances)=>{
-                    if(err){
-                        // console.log('ERROR');
-                        // console.log(err);
-                        res.status(400).end(err);
-                    }
-                    else{
-                        // console.log('DIST DATA', curIndex);
-                        // console.log(distances);                
-                        // console.log('data: ', data);
-                        if (distances.status == 'OK') {
-                            //Every origin
-                            for (let i=0; i < curOrigins.length; i++) {
-                        
-                                // Every Destination for that origin
-                                for (let j = 0; j < destinations.length; j++) {
-    
-                                    let origin = distances.origin_addresses[i];
-                                    let destination = distances.destination_addresses[j];
-    
-                                    // If data is ok
-                                    if (distances.rows[i].elements[j].status === 'OK') {
-                                        // Current Distance 
-                                        let distance = distances.rows[i].elements[j].distance.text;
-    
-                                        //If destinatoin is ashburn fill in ashburn field
-                                        if(destination.includes('Ashburn')){
-                                            complete[begin + i]['Distance from 45085 University Dr, Ashburn, VA 20147'] = distance;    
-                                            successWrites++;
+                                        let origin = distances.origin_addresses[i];
+                                        let destination = distances.destination_addresses[j];
+        
+                                        // If data is ok
+                                        if (distances.rows[i].elements[j].status === 'OK') {
+                                            // Current Distance 
+                                            let distance = distances.rows[i].elements[j].distance.text;
+        
+                                            //If destinatoin is ashburn fill in ashburn field
+                                            if(destination.includes('Ashburn')){
+                                                complete[begin + i]['Distance from 45085 University Dr, Ashburn, VA 20147'] = distance;    
+                                                successWrites++;
+                                            }
+                                            //If destinatoin DC ashburn fill in DC field                                    
+                                            if(destination.includes('Washington') && complete[i].Location.includes('Washington')){
+                                                complete[begin + i]['Distance from Address in Column b'] = distance;
+                                                complete[begin + i].State = 'DC';
+                                                                                        
+                                            }
+                                            //If destinatoin is arlington fill in arlington field                                    
+                                            if(destination.includes('Arlington') && complete[i].Location.includes('Arlington')){
+                                                complete[begin + i]['Distance from Address in Column b'] = distance;
+                                                complete[begin + i].State = 'VA';
+                                            }
+                                            //When the destinations loop is on its last item
+                                            if(j === destinations.length -1){
+                                                csvStream.write(complete[begin + i]);    
+                                                    //When the Origins loop finishes
+                                                if((begin + i) === (origins.length -1)){
+                                                    console.log('everything done');
+                                                    setTimeout(()=>{
+                                                        csvStream.end();                                                           
+                                                        res.download('./my.csv', (err)=>{
+                                                            if(err){
+                                                                console.log(err);
+                                                                res.status(400).send(err);
+                                                            }
+                                                            else{
+                                                                // res.status(200).json({complete});
+                                                                console.log('end');
+                                                            }
+                                                        });
+                                                    }, 9000);
+                                                }                        
+                                            }
                                         }
-                                        //If destinatoin DC ashburn fill in DC field                                    
-                                        if(destination.includes('Washington') && complete[i].Location.includes('Washington')){
-                                            complete[begin + i]['Distance from Address in Column b'] = distance;
-                                            complete[begin + i].State = 'DC';
-                                                                                    
+                                        //If Data is not ok 
+                                        else {
+                                            console.log(destination + ' is not reachable by land from ' + origin);
+                                            complete[begin + i].State = 'API Error';
+                                            //When the destinations loop is on its last item
+                                            if(j === destinations.length -1){
+                                                csvStream.write(complete[begin + i]);    
+                                                    //When the Origins loop finishes
+                                                if((begin + i) === (origins.length -1)){
+                                                    console.log('everything done');
+                                                    setTimeout(()=>{
+                                                        csvStream.end();                                                           
+                                                        res.download('./my.csv', (err)=>{
+                                                            if(err){
+                                                                console.log(err);
+                                                                res.status(400).send(err);
+                                                            }
+                                                            else{
+                                                                // res.status(200).json({complete});
+                                                                console.log('end');
+                                                            }
+                                                        });
+                                                    }, 9000);
+                                                }                        
+                                            }
                                         }
-                                        //If destinatoin is arlington fill in arlington field                                    
-                                        if(destination.includes('Arlington') && complete[i].Location.includes('Arlington')){
-                                            complete[begin + i]['Distance from Address in Column b'] = distance;
-                                            complete[begin + i].State = 'VA';
-                                        }
-                                        //When the destinations loop is on its last item
-                                        if(j === destinations.length -1){
-                                            csvStream.write(complete[begin + i]);    
-                                                //When the Origins loop finishes
-                                            if((begin + i) === (origins.length -1)){
-                                                console.log('everything done');
-                                                setTimeout(()=>{
-                                                    csvStream.end();                                                           
-                                                    res.download('./my.csv', (err)=>{
-                                                        if(err){
-                                                            console.log(err);
-                                                            res.status(400).send(err);
-                                                        }
-                                                        else{
-                                                            // res.status(200).json({complete});
-                                                            console.log('end');
-                                                        }
-                                                    });
-                                                }, 9000);
-                                            }                        
-                                        }
-                                    }
-                                    //If Data is not ok 
-                                    else {
-                                        console.log(destination + ' is not reachable by land from ' + origin);
-                                        complete[i].State = 'API Error';
                                     }
                                 }
                             }
+                            else{
+                                console.log('begin: ', begin);
+                                console.log('DistData: ', distances);
+                                console.log(x, apiRuns);
+                                if(x === apiRuns -1){
+                                    console.log('ending');
+                                    setTimeout(()=>{
+                                        csvStream.end();                                                           
+                                        res.download('./my.csv', (err)=>{
+                                            if(err){
+                                                console.log(err);
+                                                res.status(400).send(err);
+                                            }
+                                            else{
+                                                // res.status(200).json({complete});
+                                                console.log('end');
+                                            }
+                                        });
+                                    }, 9000);
+                                }
+                            }
                         }
-                        else{
-                            console.log('begin: ', begin);
-                            console.log('DistData: ', distances);
-                        }
-                    }
-                });
+                    });
+                }, 1000);
             }
         }
         else{
